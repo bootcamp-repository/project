@@ -177,8 +177,9 @@ public class Navigator implements Serializable {
 		//this.currentSpinePos=gotoLastSpineSection(this);
 		////System.out.println(book.getSpine().getResourceIndex(currentResource));
 		/////gotoNextSpineSection(this);
-		
-		
+		gotoResource(currentResource, 2, "chapter_1", this);
+		System.out.println("fragment_id:: "+getCurrentFragmentId());
+		setCurrentSpinePos(2);
 	}
 	
 
